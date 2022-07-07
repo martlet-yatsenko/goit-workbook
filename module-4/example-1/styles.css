@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #212121;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.tile-set {
+  display: flex;
+  justify-content: center;
+}
+
+.tile {
+  padding: 10px;
+  text-align: center;
+  border: 2px dashed #2a2a2a;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.tile:last-child {
+  margin-right: 0px;
+}
+
+.icon {
+  display: inline-flex;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon.with-bg {
+  background-color: #ff9800;
+}
+
+.icon.with-icon {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/avatars-60/5985/34-Father-512.png");
+}
